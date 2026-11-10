@@ -1,0 +1,11 @@
+id = "mybatis-navigation"
+name = "MyBatis Navigation"
+version = "0.2.0"
+schema_version = 1
+authors = ["xqd-java-ad", "kidp2h"]
+description = "MyBatis navigation: Java mapper <-> XML statements, include refid definition and usages"
+repository = "https://github.com/kidp2h/zed-mybatis-lsp"
+
+[language_servers.mybatis-lsp]
+name = "MyBatis LSP"
+languages = ["Java", "XML"]
